@@ -1,0 +1,96 @@
+@startuml
+top to bottom direction
+
+skinparam linetype ortho
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+skinparam nodesep 25
+skinparam ranksep 35
+
+hide empty methods
+hide circle
+
+'=========================
+' PACOTE 1
+'=========================
+package "Reconhecimento e gerenciamento dos corpos celestes" as P1 {
+
+    class PlanetInfo
+    class PlanetInfoDisplayController
+    class PlanetInfoUI
+    class PlanetInfoUIRadial
+    class PlanetModeController
+    class PlanetTargetHandler
+    class SolarSystemManager
+
+    PlanetInfoUIRadial -[hidden]down-> PlanetInfo
+
+    PlanetInfoDisplayController -[hidden]down-> PlanetInfoUI
+    PlanetInfoUI -[hidden]down-> SolarSystemManager
+    SolarSystemManager -[hidden]down-> PlanetTargetHandler
+    PlanetTargetHandler -[hidden]down-> PlanetModeController
+}
+
+'=========================
+' PACOTE 3 (fica ao lado)
+'=========================
+package "Auxiliares" as P3 {
+
+    class AutoDestroy
+    class BillboardLookCamera
+    class ToogleMenu
+
+    AutoDestroy -[hidden]down-> BillboardLookCamera
+    BillboardLookCamera -[hidden]down-> ToogleMenu
+}
+
+'=========================
+' PACOTE 2 (fica abaixo)
+'=========================
+package "Simulações e interações" as P2 {
+
+    class MoonOrbitSimple
+    class PlanetOrbitDynamic
+    class PlanetCollision
+    class PlanetRotation
+    class PlanetHeatController
+    class PlanetTilt
+
+    MoonOrbitSimple -[hidden]right-> PlanetOrbitDynamic
+
+    PlanetCollision -[hidden]right-> PlanetRotation
+
+    PlanetHeatController -[hidden]right-> PlanetTilt
+
+    MoonOrbitSimple -[hidden]down-> PlanetCollision
+    PlanetCollision -[hidden]down-> PlanetHeatController
+
+    PlanetOrbitDynamic -[hidden]down-> PlanetRotation
+    PlanetRotation -[hidden]down-> PlanetTilt
+}
+
+'=========================
+' POSICIONAMENTO DOS PACOTES
+'=========================
+
+P1 -[hidden]right-> P3
+P1 -[hidden]down-> P2
+
+'=========================
+' RELACIONAMENTOS
+'=========================
+
+PlanetTargetHandler --> PlanetModeController
+SolarSystemManager --> PlanetModeController
+
+PlanetInfoDisplayController --> PlanetModeController
+PlanetInfoDisplayController --> PlanetInfoUI
+PlanetInfoUIRadial --> PlanetInfo
+
+PlanetModeController -right-> PlanetOrbitDynamic
+PlanetModeController --> PlanetCollision
+
+PlanetCollision --> PlanetModeController
+
+@enduml

@@ -1,0 +1,231 @@
+{
+    "m_SelectedDeviceId": "ZF525GJJPD",
+    "m_SelectedProcess": {
+        "deviceId": "ZF525GJJPD",
+        "name": "com.vuforia.engine.VuforiaEngine",
+        "processId": 18527,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.android.settings",
+            "processId": 20675,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 6043,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 8074,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 9099,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 10830,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 11547,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 12341,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 13311,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 18740,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 19944,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 20598,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 21163,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 21807,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 22341,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 23222,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 10938,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 12070,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 12745,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 14478,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 15544,
+            "exited": false
+        },
+        {
+            "deviceId": "ZF525GJJPD",
+            "name": "com.vuforia.engine.VuforiaEngine",
+            "processId": 18527,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_ExtraWindowState": {
+        "Type": 0,
+        "Height": 0.0
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "AutoCapture": true
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    },
+    "m_ScreenCaptureSettings": {
+        "Mode": 0,
+        "m_LastSaveLocation": [
+            "C:\\Users\\casti\\Documents\\GitHub\\tcc_LuisFelipeDeCastilho\\Arbit",
+            "C:\\Users\\casti\\Documents\\GitHub\\tcc_LuisFelipeDeCastilho\\Arbit"
+        ]
+    },
+    "m_QueryLayoutSettings": {
+        "LastLayoutSaveLocation": "",
+        "LastScreenshotSaveLocation": ""
+    },
+    "m_InputSettings": {
+        "ShiftModifier": false,
+        "SendText": "",
+        "PosixKillSignal": 0,
+        "TargetProcess": {
+            "deviceId": "",
+            "name": "",
+            "processId": 0,
+            "exited": false
+        }
+    },
+    "m_AutoScroll": 0
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="marcador_netuno" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_urano" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_sol" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_venus" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_saturno" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_jupiter" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_marte" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_terra" size="1.000000 1.134680" />
+    <ImageTarget name="marcador_mercurio" size="1.000000 1.150171" />
+  </Tracking>
+</QCARConfig>
